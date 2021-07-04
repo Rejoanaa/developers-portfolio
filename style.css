@@ -1,5 +1,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
+    margin: 0;
 }
 h1{
     font-size: 50px;
@@ -19,4 +20,16 @@ width: 80%;
 height: 70%;
 padding-bottom: 100px;
 padding-left: 40px ;
+}
+.hire{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(82, 167, 82),rgb(219, 219, 112));
+    color: rgb(1, 1, 32);
+    padding: 10px 20px;
+    font-weight: 600;
+    border-radius: 10px;
+}
+.backgr{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
 }
