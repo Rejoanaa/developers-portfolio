@@ -54,12 +54,25 @@ padding-left: 40px ;
     margin-right: 5%;
     margin-bottom: 20px;
     padding: 20px 20px ;
-    border-radius: 30px;
-    border: 10px violet;
+    border-radius: 20px;
 }
-.work{
+.dntno{
     background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
     background-position: left;
-    
   
+}
+#bord{
+    border-left:7px solid;
+    border-image: linear-gradient(rgb(172, 65, 65) ,yellow) ;
+    border-image-slice: 1;
+
+}
+#borde{
+    border-left:7px solid;
+    border-image: linear-gradient(blue ,rgb(124, 31, 116)) ;
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
