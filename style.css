@@ -5,10 +5,10 @@ body{
 h1{
     font-size: 50px;
 }
-#mycolor{
+.mycolor{
     color: brown;
 }
-section{
+.flexible{
     display:flex;
     margin-bottom: 20px;
 }
@@ -45,5 +45,21 @@ padding-left: 40px ;
 .backgr2{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+  
+}
+.box{
+    box-shadow: 10px 10px 40px gray ;
+    width: 40% ;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20px;
+    padding: 20px 20px ;
+    border-radius: 30px;
+    border: 10px violet;
+}
+.work{
+    background-image: url(images/exp-bg.png);
+    background-position: left;
+    
   
 }
