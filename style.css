@@ -10,6 +10,7 @@ h1{
 }
 section{
     display:flex;
+    margin-bottom: 20px;
 }
 .one{
     width: 50%;
@@ -32,4 +33,17 @@ padding-left: 40px ;
 .backgr{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.two{
+    width: 50%;
+}
+.two img{
+    width: 70%;
+    margin-left: 40px;
+    padding-bottom: 40px ;
+}
+.backgr2{
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
+  
 }
